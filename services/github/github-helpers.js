@@ -11,7 +11,7 @@ const documentation = `
 `
 
 function stateColor(s) {
-  return { open: '2cbe4e', closed: 'cb2431', merged: '6f42c1' }[s]
+  return { open: '2cbe4e', closed: '6f42c1', merged: '6f42c1' }[s]
 }
 
 function errorMessagesFor(notFoundMessage = 'repo not found') {
